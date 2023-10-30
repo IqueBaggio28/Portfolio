@@ -1,0 +1,136 @@
+/*.experience{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+.boxes_div{
+    display: flex;
+    gap: 5em;
+    overflow-x: auto;
+    margin-bottom: 100px;
+}
+/*.boxes_div::-webkit-scrollbar{*/
+/*    color: var(--clr-slate400);*/
+/*}*/
+/*.boxes_div:hover::-webkit-scrollbar{*/
+/*    width: 1px;*/
+/*}*/
+
+
+.experience__box{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-slate800);
+    /*border: 3px solid var(--clr-teal);*/
+    min-width: 27rem;
+    max-height: 38rem;
+    margin-top: 2rem;
+    opacity: .8;
+    outline: 1px solid var(--clr-slate600);
+
+}
+.experience__box:hover{
+    opacity: 1;
+    outline: 1px solid var(--clr-slate400);
+
+}
+
+
+.experience__company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.experience__company-pic{
+    width: 6rem;
+    margin: 1em 1em;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.experience__company-title-main{
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+.ottimizza{
+    right: 1.7em;
+}
+.fgcu_1{
+
+    right: 4.3em;
+}
+.fgcu_2{
+
+    right: 2.0em;
+}
+
+
+
+
+.experience__company-title{
+    color: var(--clr-light);
+    font-size: var(--size-4xl);
+    border-bottom: 1px solid var(--clr-slate400);
+    margin-bottom: .25em;
+}
+
+
+
+
+
+.experience__company-sub{
+    color: var(--clr-slate400);
+}
+
+.experience__languages{
+    display: flex;
+    gap: 1.25em;
+    list-style: none;
+    margin: 1em 0;
+
+}
+
+.experience__languages-img{
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.experience__languages-img:hover{
+    border: 1px solid var(--clr-slate400)
+}
+
+
+.experience__relevant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 18.659rem;
+    padding: 0 2em;
+
+}
+
+.experience__relevant-item{
+    color: var(--clr-slate400);
+}
+
+.experience__date{
+    justify-self: flex-end;
+    align-self: flex-end;
+    position: relative;
+    right: 0.30em;
+    color: var(--clr-slate600);
+    font-size: var(--size-sm);
+
+}

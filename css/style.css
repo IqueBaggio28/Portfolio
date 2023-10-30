@@ -1,0 +1,105 @@
+:root {
+    --clr-dark: #0f0c0b;
+    --clr-light: #f1f5f9 ;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #475569;
+    --clr-slate700: #334155;
+    --clr-slate800: #1e293b;
+    --clr-teal: #0d9488;
+    --clr-orange: #ea580c ;
+
+    /* teal rgb(13, 148, 136) */
+    /* orange rgb(234, 88, 12)*/
+
+    /*  Sizes  */
+
+    --size-xxs: .5rem;
+    --size-xs: .75rem;
+    --size-sm: .875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+}
+
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    line-height: calc(1em + .5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 3em;
+}
+
+
+body{
+    font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-dark);
+    color: var(--clr-light)
+
+}
+
+
+
+
+img, picture, video, canvas, svg{
+    display: block;
+}
+
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+
+}
+
+strong{
+    color: var(--clr-orange)
+}
+
+a{
+    color: var(--clr-teal);
+}
+
+
+/* XS */
+/*@media (min-width: 475px) {}*/
+
+/* sm */
+/*@media (min-width: 640px) {}*/
+
+/* md */
+/*@media (min-width: 768px) {}*/
+
+/* Lg */
+/*@media (min-width: 1024px) {}*/
+
+/* XL */
+/*@media (min-width: 1280px) {}*/
+
+/* 2XL */
+/*@media (min-width: 1536px) {}*/
+
+
+
+
