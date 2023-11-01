@@ -29,6 +29,7 @@
     margin-top: 2rem;
     opacity: .8;
     outline: 1px solid var(--clr-slate600);
+    transition: all 0.4s ease;
 
 }
 .experience__box:hover{
