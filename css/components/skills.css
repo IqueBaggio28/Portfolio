@@ -1,10 +1,10 @@
 .skills__content{
     display: flex;
-    /*border: 1px yellow solid;*/
+    border: 1px yellow solid;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .skills__box-section{
@@ -19,9 +19,7 @@
 
     list-style: none;
     grid-gap: 2em;
-    margin: 0;
-    padding: 0;
-
+    
     
 
 }
@@ -125,6 +123,8 @@
 @media (min-width: 350px) {/* Same as width <= 475 */
     .skills__content{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .skills__box-section{
@@ -136,7 +136,7 @@
         'box5 box6 box7'
         'box10 box11 box12';
         grid-gap: 1em;
-
+        
     }
     .skills__box{
         width: 4rem;
@@ -168,7 +168,7 @@
         position: relative;
         left: -8.4em;
         text-align: center;
-        border: 1px red solid;
+        /* border: 1px red solid; */
 
     }
 
