@@ -79,6 +79,64 @@
 
 }
 
+@media (min-width: 350px) { 
+    .projects{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .projects__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid var(--clr-slate800);
+        border-radius: 20px;
+        margin-bottom: 4em;
+        
+    
+    
+    }
+    .projects__text{
+        align-self: center;
+        position: static;
+        /* margin-top: 6em; */
+        height: 50vh;
+        
+    }
+    
+    .projects__title{
+        font-size: var(--size-3xl);
+        
+    }
+
+    .projects__paragraph{
+    
+        max-width: 60ch;
+        
+        margin: 0 auto;
+        font-size: var(--size-base);
+        /* color: var(--clr-slate400);
+        margin-bottom: 1.5em; */
+    
+    }
+    
+    .projects__skills{
+        margin-top: 1.5rem;
+        font-size: var(--size-sm);
+        color: var(--clr-slate600);
+    }
+    
+
+    
+    .projects__images{
+        display: none;
+    }
+    
+} 
+
 /* XS */
 @media (min-width: 475px) { 
     .projects{
