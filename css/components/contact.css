@@ -5,10 +5,11 @@
     align-items: center;
     text-align: center;
     gap: 1rem;
-    /*background-color: var(--clr-slate800);*/
-    position: sticky;
+    /* background-color: var(--clr-slate800); */
+    position: relative;
     bottom: 0;
     /*margin-bottom: 10rem;*/
+    height: 100vh;
 
 }
 
@@ -28,6 +29,7 @@
 
 .contact__btn{
     font-size: var(--size-sm);
+    margin-bottom: 3rem;
 }
 
 .contact__email{
@@ -42,9 +44,9 @@
 
 
 .contact__arrow-up{
-    position: relative;
+    position: absolute;
     bottom: 1.5rem;
-    right: -3rem;
+    right: 0rem;
     width: 4rem;
     height: 4rem;
     font-size: var(--size-6xl);
