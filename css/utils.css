@@ -1,7 +1,7 @@
 /* XS */
-@media (min-width: 400px) {
+@media (min-width: 475px) {
     .container{
-        max-width: 400px;
+        max-width: 475px;
     }
     .page_title{
         font-size: var(--size-3xl);

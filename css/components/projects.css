@@ -80,7 +80,7 @@
 }
 
 /* XS */
-@media (min-width: 400px) { 
+@media (min-width: 475px) { 
     .projects{
         display: flex;
         flex-direction: column;

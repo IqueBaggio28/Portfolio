@@ -76,7 +76,7 @@
 
 
 /* XS */
-@media (min-width: 400px) {
+@media (min-width: 475px) {
     .contact{
         gap: 1.5rem;
     }
