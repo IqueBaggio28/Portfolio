@@ -51,14 +51,15 @@
     padding: 0;
     margin-top: 1rem;
 }
-a .hero__item{
-    padding: .75em;
+.hero__item{
+    height: .75rem;
     transition: outline-color 0.4s;
+    
 }
 
 .hero__item:hover{
     outline: 1px solid var(--clr-teal);
-    border-radius: 2rem;
+    border-radius: 100rem;
     padding: .75em;
     cursor: pointer;
 
@@ -105,7 +106,7 @@ a .hero__item{
     margin-top: 1rem;
 }
 .hero__item{
-    padding: 1em;
+    padding: 1rem;
     transition: outline .3s ease-in;
 
 }
@@ -168,7 +169,7 @@ a .hero__item{
 
 .hero__item:hover{
     outline: 1px solid var(--clr-teal);
-    border-radius: 2rem;
+    border-radius: 10rem;
     padding: 1em;
     cursor: pointer;
 
@@ -221,7 +222,7 @@ a .hero__item{
 
 .hero__item:hover{
     outline: 1px solid var(--clr-teal);
-    border-radius: 2rem;
+    border-radius: 10rem;
     padding: 1em;
     cursor: pointer;
 
