@@ -122,7 +122,7 @@
 }
 
 /* XS */
-@media (min-width: 475px) {/* Same as width <= 475 */
+@media (min-width: 400px) {/* Same as width <= 475 */
     .skills__content{
         flex-direction: column;
     }
