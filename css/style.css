@@ -42,10 +42,6 @@
     line-height: calc(1em + .5rem);
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
 
 
 
