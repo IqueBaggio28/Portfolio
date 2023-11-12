@@ -59,7 +59,7 @@
 
 .hero__item:hover{
     outline: 1px solid var(--clr-teal);
-    border-radius: 100rem;
+    border-radius: 10rem;
     padding: .75em;
     cursor: pointer;
 
@@ -71,58 +71,95 @@
 }
 
 
+@media (min-width: 350px) {
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    .hero__list{
+        margin-top: 3rem;
+
+        gap: .5rem;
+        
+    }
+    .hero__item{
+        height: 0;
+        padding: .70rem;
+        outline: 1px solid var(--clr-slate600);
+        border-radius: 10rem;
+
+    }
+    
+    .hero__item:hover{
+        background-color: var(--clr-slate800);
+        padding: .70rem;
+        cursor: pointer;
+    
+    }
+    
+    .hero__item:active{
+        background-color: var(--clr-slate800);
+    
+    }
+}
+
 /* XS */
 @media (min-width: 475px) {
-.hero{
-    gap: 1.5rem;
-}
+    .hero{
+        gap: 1.5rem;
+    }
 
 
-.hero__img{
-    width: 6.5rem;
-    height: 6.5rem;
+    .hero__img{
+        width: 6.5rem;
+        height: 6.5rem;
 
-}
+    }
 
-.hero__subtitle{
-    font-size: var(--size-lg);
-}
+    .hero__subtitle{
+        font-size: var(--size-lg);
+    }
 
-.hero__title{
-    font-size: var(--size-5xl);
-}
+    .hero__title{
+        font-size: var(--size-5xl);
+    }
 
 
-.hero__description{
-    font-size: var(--size-base);
-}
+    .hero__description{
+        font-size: var(--size-base);
+    }
 
-.hero__list{
-    display: flex;
-    gap: 3em;
-    color: var(--clr-slate600);
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-}
-.hero__item{
-    padding: 1rem;
-    transition: outline .3s ease-in;
+    .hero__list{
+        display: flex;
+        gap: 3em;
+        color: var(--clr-slate600);
+        list-style: none;
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .hero__item{
+        padding: 1rem;
+        transition: outline .3s ease-in;
 
-}
+    }
 
-.hero__item:hover{
-    outline: 1px solid var(--clr-teal);
-    border-radius: 2rem;
-    padding: 1em;
-    cursor: pointer;
+    .hero__item:hover{
+        outline: 1px solid var(--clr-teal);
+        border-radius: 2rem;
+        padding: 1em;
+        cursor: pointer;
 
-}
+    }
 
-.hero__item:active{
-    background-color: var(--clr-slate800);
+    .hero__item:active{
+        background-color: var(--clr-slate800);
 
-}
+    }
 
 }
 
@@ -130,7 +167,11 @@
 /*@media (min-width: 640px) {} */
 
 /* md */
-/*@media (min-width: 768px) {  }*/
+@media (min-width: 768px) {
+    .hero__item{
+        outline:none;
+    }
+}
 
 /* Lg */
 @media (min-width: 1024px) {

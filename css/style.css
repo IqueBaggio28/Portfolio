@@ -44,11 +44,12 @@
 
 
 
-
-body{
-    max-width: 100%;
-    overflow-x: hidden;
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+
 
 html{
     scroll-behavior: smooth;
@@ -120,7 +121,16 @@ body::-webkit-scrollbar-thumb{
 /*@media (min-width: 640px) {}*/
 
 /* md */
-/*@media (min-width: 768px) {}*/
+@media (max-width: 768px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+    }
+}
 
 /* Lg */
 /*@media (min-width: 1024px) {}*/
