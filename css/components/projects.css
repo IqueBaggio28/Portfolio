@@ -134,7 +134,9 @@
     .projects__images{
         display: none;
     }
-    
+    .projects__video{
+        display: none;
+    }
 } 
 
 /* XS */
@@ -190,9 +192,7 @@
     
 
     
-    .projects__images{
-        display: none;
-    }
+
     
 } 
 
@@ -264,6 +264,10 @@
     
     .projects__images{
         display:unset;
+    }
+
+    .projects__video{
+        display: unset;
     }
     
     .projects__img{
