@@ -70,6 +70,9 @@ body{
 img, picture, video, canvas, svg{
     display: block;
 }
+img{
+    -webkit-user-drag: none;
+}
 
 
 button{
