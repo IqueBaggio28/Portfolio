@@ -72,15 +72,7 @@
 
 
 @media (min-width: 350px) {
-    
-    
-    
-    
-    
-    
-    
-   
-    
+
     .hero__list{
         margin-top: 3rem;
 
@@ -95,12 +87,7 @@
 
     }
     
-    .hero__item:hover{
-        background-color: var(--clr-slate800);
-        padding: .70rem;
-        cursor: pointer;
-    
-    }
+
     
     .hero__item:active{
         background-color: var(--clr-slate800);
@@ -170,6 +157,10 @@
 @media (min-width: 768px) {
     .hero__item{
         outline:none;
+    }
+
+    .hero_item:hover{
+        background-color: transparent;
     }
 }
 

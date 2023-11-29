@@ -28,17 +28,52 @@
     color: var(--clr-teal);
     letter-spacing: .1em;
     margin-bottom: 1.5em;
+    display: flex;
+    justify-content: center;
+    position: relative
+;
 }
+.projects__title-link-icon{
+    color: var(--clr-slate600);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+
 
 .projects__title-link{
     text-decoration: none;
-    transition: all .3s ease;
+    position: relative;
+    transition: color .3s ease-out;
+
 }
 
 .projects__title-link:hover{
-    text-decoration: underline var(--clr-orange);
     color: var(--clr-orange);
 }
+
+.projects__title-link::after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 3px;
+    border-radius: 100%;
+    background-color: transparent;
+    transition: width .5s ease-out,
+    background-color .5s ease-out ;
+}
+
+.projects__title-link:hover::after{
+    width: 100%;
+    background-color: var(--clr-orange);
+}
+
 
 .projects__paragraph{
 
@@ -236,15 +271,7 @@
         margin-bottom: 1.5em;
     }
     
-    .projects__title-link{
-        text-decoration: none;
-        transition: all .3s ease;
-    }
-    
-    .projects__title-link:hover{
-        text-decoration: underline var(--clr-orange);
-        color: var(--clr-orange);
-    }
+
     
     .projects__paragraph{
     
@@ -329,14 +356,14 @@
     }
     
     .projects__title-link{
+        position: relative;
+
         text-decoration: none;
-        transition: all .3s ease;
+        /*transition: all .3s ease;*/
     }
     
-    .projects__title-link:hover{
-        text-decoration: underline var(--clr-orange);
-        color: var(--clr-orange);
-    }
+
+
     
     .projects__paragraph{
     
@@ -416,15 +443,7 @@
         margin-bottom: 1.5em;
     }
     
-    .projects__title-link{
-        text-decoration: none;
-        transition: all .3s ease;
-    }
-    
-    .projects__title-link:hover{
-        text-decoration: underline var(--clr-orange);
-        color: var(--clr-orange);
-    }
+
     
     .projects__paragraph{
     
@@ -504,15 +523,7 @@
         margin-bottom: 1.5em;
     }
     
-    .projects__title-link{
-        text-decoration: none;
-        transition: all .3s ease;
-    }
-    
-    .projects__title-link:hover{
-        text-decoration: underline var(--clr-orange);
-        color: var(--clr-orange);
-    }
+
     
     .projects__paragraph{
     
