@@ -40,6 +40,7 @@
 *{
     margin: 0;
     line-height: calc(1em + .5rem);
+    border-sizing: border-box;
 }
 
 

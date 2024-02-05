@@ -16,6 +16,9 @@
         <link rel="stylesheet" type="text/css" href="css/components/mobile-nav.css">
         <link rel="stylesheet" type="text/css" href="css/utils.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
 
 
@@ -29,7 +32,13 @@
             <ul class="header__menu">
                 <li> <a href="https://www.linkedin.com/in/henrique-baggio-2223b9227/" target="_blank"> <i class="fab fa-linkedin fa-2x" style="color: #3e6ab6;"></i></a></li>
                 <li> <a href="https://github.com/IqueBaggio28?tab=repositories" target="_blank"> <i class="fab fa-github-square fa-2x" style="color: #385fa3;"></i> </a> </li>
+                <li class="header-right">
+                    <a href="henrique_baggio_resume_feb-WEB.pdf" title="Download Resume" download="henrique_baggio_resume_feb-WEB.pdf">
+                        <i class="far fa-file fa-2x" style="color: #3e6ab6;"></i>
+                    </a>
+                </li>
                 <li class="header__contact"><a href="javascript: document.body.scrollIntoView(false);"><button class="btn">Contact</button></a></li>
+
             </ul>
             <button class="header__bars">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -43,6 +52,11 @@
         <div class="mobile-nav">
             <nav>
                 <ul class="mobile-nav__menu">
+                    <li>
+                        <a class="mobile-nav__link"href="henrique_baggio_resume_feb-WEB.pdf" title="Download Resume" download="henrique_baggio_resume_feb-WEB.pdf">
+                            <i class="far fa-file fa-2x" style="color: #3e6ab6;"></i>
+                        </a>
+                    </li>
                     <li>
                         <a class="mobile-nav__link" href="https://www.linkedin.com/in/henrique-baggio-2223b9227/" target="_blank"> <i class="fab fa-linkedin fa-3x" style="color: #3e6ab6;"></i></a>
                     </li>
@@ -237,18 +251,18 @@
 
             <div class="skills__content">
                 <ul class="skills__box-section">
-                    <li class="skills__item1 skills__box"><img class="skills__img" src="css/images/Python-logo-notext.svg.png" alt="" draggable="false"></li>
-                    <li class="skills__item2 skills__box"><img class="skills__img" src="css/images/c_logo-1.png" alt="" draggable="false"></li>
-                    <li class="skills__item3 skills__box"><img class="skills__img" src="css/images/c++_logo-1.png" alt="" draggable="false"></li>
-                    <li class="skills__item4 skills__box"><img class="skills__img" src="css/images/java_logo-1.png" alt="" draggable="false"></li>
-                    <li class="skills__item5 skills__box"><img class="skills__img" src="css/images/pandas_logo.png" alt="" draggable="false"></li>
-                    <li class="skills__item6 skills__box"><img class="skills__img" src="css/images/lambda_logo.png" alt="" draggable="false"></li>
-                    <li class="skills__item7 skills__box"><img class="skills__img" src="css/images/aws_logo.png" alt="" draggable="false"></li>
-                    <li class="skills__item8 skills__box"><img class="skills__img" src="css/images/html_logo-1.png" alt="" draggable="false"></li>
-                    <li class="skills__item9 skills__box"><img class="skills__img" src="css/images/css_logo-2.png" alt="" draggable="false"></li>
-                    <li class="skills__item10 skills__box"><img class="skills__img" src="css/images/git_logo.png" alt="" draggable="false"></li>
-                    <li class="skills__item12 skills__box"><img class="skills__img" src="css/images/github_logo-1.png" alt="" draggable="false"></li>
-                    <li class="skills__item11 skills__box"><img class="skills__img" src="css/images/reges_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item1 skills__box " ><img class="skills__img" src="css/images/Python-logo-notext.svg.png" alt="" draggable="false"></li>
+                    <li class="skills__item2 skills__box " ><img class="skills__img" src="css/images/c_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item3 skills__box " ><img class="skills__img" src="css/images/c++_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item4 skills__box" ><img class="skills__img" src="css/images/java_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item5 skills__box" ><img class="skills__img" src="css/images/pandas_logo.png" alt="" draggable="false"></li>
+                    <li class="skills__item6 skills__box" ><img class="skills__img" src="css/images/lambda_logo.png" alt="" draggable="false"></li>
+                    <li class="skills__item7 skills__box " ><img class="skills__img" src="css/images/aws_logo.png" alt="" draggable="false"></li>
+                    <li class="skills__item8 skills__box " ><img class="skills__img" src="css/images/html_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item9 skills__box " ><img class="skills__img" src="css/images/css_logo-2.png" alt="" draggable="false"></li>
+                    <li class="skills__item10 skills__box" ><img class="skills__img" src="css/images/git_logo.png" alt="" draggable="false"></li>
+                    <li class="skills__item12 skills__box" ><img class="skills__img" src="css/images/github_logo-1.png" alt="" draggable="false"></li>
+                    <li class="skills__item11 skills__box" ><img class="skills__img" src="css/images/reges_logo-1.png" alt="" draggable="false"></li>
                     <li class="skills__empty1"></li>
                     <li class="skills__empty2"></li>
                     <li class="skills__empty3"></li>
@@ -443,6 +457,9 @@
 
         <script src="show_information.js"></script>
         <script src="mobile-nav.js"></script>
+        <script src="scroll.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     </body>
 </html>

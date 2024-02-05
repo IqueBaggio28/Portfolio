@@ -4,22 +4,49 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /*position: sticky;*/
+    position: sticky;
     opacity: 1;
+    top: 0;
+    z-index: 100;
+    /*position: fixed;*/
     /*top: 0;*/
-    z-index: 0;
-
-
+    /*width: 100%;*/
+    background-color: var(--clr-dark);
+    transition: opacity 0.3s ease-in-out; /* Adjust the duration and timing function as needed */
 }
+
+.header-hidden {
+    opacity: 0;
+    pointer-events: none; /* Make sure the hidden header is not clickable */
+    transition: opacity 0.3s ease-in-out; /* Same transition properties as in .header */
+}
+
+
 
 .header__menu{
     display: none;
+
+}
+
+.header__menu li{
+    transition: all 0.3s;
+
+}
+
+.header__menu li:hover{
+    transform: translateY(-5px);
 }
 
 .header__contact{
     position: absolute;
     right: 1em;
 }
+
+.header-right{
+    position: absolute;
+    right: 7.5rem;
+}
+
 
 li a{
     text-decoration: none;
@@ -57,6 +84,7 @@ li a{
         padding: 0;
         gap: 2em;
     }
+
 
     .header__bars{
         display: none;

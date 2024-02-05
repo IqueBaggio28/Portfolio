@@ -127,7 +127,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 5px solid var(--clr-slate800);
         border-radius: 20px;
         margin-bottom: 4em;
         
@@ -188,7 +187,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 5px solid var(--clr-slate800);
         border-radius: 20px;
         margin-bottom: 4em;
         
