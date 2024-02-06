@@ -26,8 +26,14 @@ const activateMobileNav = () => {
             isMobileNavOpen = false;
             mobileNav.style.display = 'none';
             document.body.style.overflowY = 'auto';
-        })
     })
+})
+
+    function closeMobileNav() {
+    isMobileNavOpen = false;
+    mobileNav.style.display = 'none';
+    document.body.style.overflowY = 'auto';
+}
 
 
 
